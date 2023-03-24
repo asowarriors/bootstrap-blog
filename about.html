@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Bootstrap blog</title>
+    <link rel="stylesheet" href="./css/reset.css" class="css" />
+    <link rel="stylesheet" href="./css/style.css" class="css" />
+  </head>
+  <body>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">DeepTooWeeb</a>
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="form.html" class="nav-link">Form</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main section -->
+    <main class="container">
+      <!-- about title container -->
+      <section class="about-section mt-3">
+        <h1 class="text-capitalize fs-1 d-flex justify-content-center">
+          about us
+        </h1>
+        <p class="fs-5 d-flex justify-content-center">
+          we provide most exceptional service for our clint we think our clint
+          perception coz clint satisfaction
+        </p>
+      </section>
+
+      <!-- about image container -->
+      <section class="about-main mt-5">
+        <div class="row">
+          <div class="col-6 about-image">
+            <img src="./image-gallery/image (8).jpg" alt="image" />
+          </div>
+          <div class="col-6">
+            <h2 class="text-capitalize">the title of the about section</h2>
+            <p class="text-capitalize fs-6 lh-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              incidunt delectus totam. Quo corporis dolores deserunt, dolor
+              atque, obcaecati porro esse laboriosam non laborum aliquam omnis
+              doloremque sunt, facere assumenda. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Blanditiis, similique impedit
+              inventore eligendi dolorum ad quasi repudiandae commodi ipsa.
+              Quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Magni exercitationem eos ea labore laudantium quibusdam
+              illum facere. Expedita, quidem quas?
+            </p>
+            <button
+              type="button"
+              class="btn bg-danger text-capitalize fw-bold text-white"
+            >
+              submit
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="w-100 bg-dark">
+      <div class="container text-white py-3">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="text-capitalize">bootstrap blog 5</h2>
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              impedit voluptatum enim doloremque fuga aperiam.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <a
+              href="#"
+              class="ms-lg-4 fs-5 pe-3 text-decoration-none text-secondary"
+              >Home</a
+            >
+            <a href="#" class="fs-5 pe-3 text-decoration-none text-secondary"
+              >About</a
+            >
+            <a href="#" class="fs-5 text-decoration-none text-secondary"
+              >Service</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

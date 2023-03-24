@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+/* navigation  */
+.navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: orangered;
+}
+
+.nav-item > a {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-item a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.card-img-top,
+.blog-page-banner {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* card components */
+.card-text {
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+.card-a {
+  font-size: 17px;
+  padding: 0.5rem;
+}
+
+.sidebar-image {
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* blog page one start */
+.article h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.article h4 {
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.article a {
+  text-decoration: none;
+  color: #666;
+}
+
+.article p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.article img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1rem;
+}
+
+/* about page */
+.about-image img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* form page design */
